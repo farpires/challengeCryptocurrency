@@ -1,5 +1,5 @@
 const {getBlockNumber,getNodeInfo,getGasPrice} = require('./red/practiceWeb3');
-const {getTransaction, getAccounts, getTransactionReceipt} = require('./red/polygonscan');
+const {getTransaction, getAccounts, getTransactionReceipt, getQuickswap} = require('./red/polygonscan');
 const {getABI,getByteCode} = require('./scripts/compile');
 
 (async ()=>{
@@ -12,6 +12,7 @@ const {getABI,getByteCode} = require('./scripts/compile');
     console.log(await getTransaction());
     console.log(await getTransactionReceipt());
     console.log(await getAccounts());
+    console.log(await getQuickswap(10)); // print the last 10 transactions of Coin Quickswap
 
     // get an ABI and a Bytecode
     // console.log(await getABI());
