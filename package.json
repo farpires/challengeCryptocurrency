@@ -1,0 +1,26 @@
+{
+  "name": "challengecryptocurrency",
+  "version": "1.0.0",
+  "description": "Este challenge tiene como objetivo usar herramientas básicas como js y git para conecterse, leer, interpretar y procesar información de transacciones que interactuan con contratos escritos en solidity.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "web3": "^1.4.0"
+  },
+  "devDependencies": {
+    "solc": "^0.8.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farpires/challengeCryptocurrency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farpires/challengeCryptocurrency/issues"
+  },
+  "homepage": "https://github.com/farpires/challengeCryptocurrency#readme"
+}
