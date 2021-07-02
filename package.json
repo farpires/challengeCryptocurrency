@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Este challenge tiene como objetivo usar herramientas básicas como js y git para conecterse, leer, interpretar y procesar información de transacciones que interactuan con contratos escritos en solidity.",
   "main": "index.js",
-  "dependencies": {
-    "solc": "^0.5.16"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "chalk": "^4.1.1",
+    "solc": "^0.8.6",
     "web3": "^1.4.0"
   },
   "scripts": {
