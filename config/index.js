@@ -3,6 +3,8 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 module.exports = {
-    NODE_POLYGON: process.env.NODE_POLYGON,
-    NODE_ETHEREUM: process.env.NODE_ETHEREUM,
+    POLYGON: process.env.NODE_POLYGON,
+    POLYGON_SOCKET: process.env.NODE_POLYGON_SOCKET,
+    ETHEREUM: process.env.NODE_ETHEREUM,
+    ETHEREUM_SOCKET: process.env.NODE_ETHEREUM_SOCKET,
 }
