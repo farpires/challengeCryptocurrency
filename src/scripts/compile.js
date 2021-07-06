@@ -12,7 +12,7 @@ const getByteCode = ()=>{
     const source = fs.readFileSync(contractPath,'utf8');
     const {bytecode} = solc.compile(source,1).contracts[':Inbox'];
     return bytecode;
-} 
+}
 module.exports = {
     getABI,
     getByteCode,
